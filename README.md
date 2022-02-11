@@ -1,3 +1,5 @@
 ### To run the app
 
-Navigate inside `qrcode/src` and run `npm start`
+Navigate inside `/qrcode` and run `npm start`
+
+This will run react app in development mode
