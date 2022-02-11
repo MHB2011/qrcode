@@ -1,0 +1,34 @@
+.qrCodeContainer {
+  display: flex;
+  background-color: var(--white);
+  padding: 8px;
+  border-radius: 8px;
+  flex-direction: column;
+  width: 196px;
+}
+
+.imageConatiner {
+  display: flex;
+  background-color: var(--dark-blue);
+  width: 180px;
+  height: 180px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  background-image: url("../../../../images/image-qr-code.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.descriptionContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  text-align: center;
+}
+
+.descriptionContainer p {
+  margin: 16px 0px;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--grayish);
+}
